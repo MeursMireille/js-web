@@ -1,1 +1,25 @@
-/*Use the .scss file instead!*/
+form [type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  background-color: #89e971;
+  border-radius: 4px;
+}
+
+.color {
+  color: #5f1111;
+}
+
+button[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  background-color: #89e971;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */

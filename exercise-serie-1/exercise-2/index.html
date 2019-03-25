@@ -13,7 +13,7 @@
     <!--Link to your stylesheet-->
     <link rel="stylesheet" href="style.css">
     
-    <title>Exercise ... : ...</title>
+    <title>Exercise 1.2 : Calculator</title>
 
 </head>
 <body>
@@ -23,7 +23,24 @@
 
     <div class="container my-5 py-5 bg-white text-success">
 
-        
+        <div>
+            <form name="formcalc">
+                Number 1: <input type="text" name="textnum1" class="m-2">
+                <br>
+                Number 2: <input type="text" name="textnum2" class="m-2">
+                <br>
+                Result:  <input type="text" name="textres" class="m-2">
+
+                <input type="button" value="+" onclick="pValues()">
+
+                <input type="button" value="-" onclick="mValues()">
+
+                <input type="button" value="/" onclick="dValues()">
+
+                <input type="button" value="*" onclick="xValues()">
+
+            </form>
+        </div>
 
 
         <!-- PLACE YOUR CONTENT HERE-->

@@ -1,1 +1,30 @@
-/*Use the .scss file instead!*/
+#blackCanvas {
+  width: 100px;
+  height: 100px;
+  background: black;
+  border: 3px solid orange;
+  position: relative;
+}
+
+button {
+  font-family: arial, sans-serif;
+  background-color: #0DE2EA;
+  border: 3px solid orange;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
+
+#displayRedButton {
+  color: red;
+}
+
+#displayBlueButton {
+  color: #050541;
+}
+
+#displayGreenButton {
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

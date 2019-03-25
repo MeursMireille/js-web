@@ -1,1 +1,8 @@
-/*Use the .scss file instead!*/
+h5 {
+  display: flex;
+  text-align: center;
+  color: crimson;
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

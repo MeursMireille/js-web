@@ -1,3 +1,10 @@
+
+<!-- 1.1 - Color selector
+Display three buttons named "Blue", "Red" and "Green" as well as a <div> shaped like a square which should be black by default.
+
+When you click on any of these buttons it should change the color of the <div> to the corresponding color. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,25 +20,32 @@
     <!--Link to your stylesheet-->
     <link rel="stylesheet" href="style.css">
     
-    <title>Exercise ... : ...</title>
+    <title>Exercise 1.1 : Color selector </title>
 
 </head>
 <body>
     
-    <h1 class="text-center my-5"><i class="fas fa-cat"></i> This is a template <i class="fas fa-cat"></i></h1>
+    <h1 class="text-center my-5"><i class="fas fa-cat"></i> Color selector <i class="fas fa-cat"></i></h1>
 
 
     <div class="container my-5 py-5 bg-white text-success">
 
+        <div class="btn-group" role="group">
+            <button onclick="Style('blue')" id="displayBlueButton" class="color text-black-50 m-5">Blue</button>
+
+            <button onclick="Style('red')" id="displayRedButton" class="color text-black-50 m-5">Red</button>
+
+            <button onclick="Style('green')" id="displayGreenButton" class="color text-black-50 m-5">Green</button>
         
+        <canvas id="blackCanvas" class="canvas m-5"></canvas>
+        </div>
+	</div>
+    
 
 
         <!-- PLACE YOUR CONTENT HERE-->
 
-
-
-
-    </div>
+    
 
 
     <!--Bootstrap & Jquery scripts-->

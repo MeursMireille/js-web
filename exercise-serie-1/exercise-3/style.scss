@@ -1,1 +1,28 @@
 //Write your scss here and then compile it to "style.css"...
+
+$text-color:rgb(95, 17, 17);
+
+
+form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    background-color: rgb(137, 233, 113);
+    border-radius: 4px;
+  }
+  
+  .color{
+    color: $text-color;
+  }
+  
+button {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    background-color: rgb(137, 233, 113);
+    border-radius: 4px;
+  }

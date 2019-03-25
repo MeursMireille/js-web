@@ -13,18 +13,26 @@
     <!--Link to your stylesheet-->
     <link rel="stylesheet" href="style.css">
     
-    <title>Exercise ... : ...</title>
+    <title>Exercise 1.7 : Troll button </title>
 
 </head>
 <body>
     
-    <h1 class="text-center my-5"><i class="fas fa-cat"></i> This is a template <i class="fas fa-cat"></i></h1>
+    <h1 class="text-center my-5"><i class="fas fa-cat"></i> This is a Troll button <i class="fas fa-cat"></i></h1>
 
+    <!--1.7 - Troll button
+Display a button saying "Click me". When the user moves the mouse on top of the button to click on it the button should jump to a completely different place on the page which is not under the mouse cursor anymore. It should continue to do so regardless the number of times the user tries to relocate the mouse cursor to try to click on it and always jump at a random place.
+
+Bonus: after a few misclicks, display insulting messages to let the user know he can't even click on a button.-->
 
     <div class="container my-5 py-5 bg-white text-success">
 
         
-
+        <div class="row">
+            <div class="col-md-12">
+            <button onmouseover="btnMove()" type="button" id="btn" class="btn btn-primary btn-lg">Click here, if you can ;p </button>
+            </div>
+        </div>
 
         <!-- PLACE YOUR CONTENT HERE-->
 

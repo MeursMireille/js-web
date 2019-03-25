@@ -1,1 +1,50 @@
-//Write your scss here and then compile it to "style.css"...
+//Write you
+//r scss here and then compile it to "style.css"...
+
+
+
+$font-family:arial, sans-serif;
+
+$primary:#FF550B;
+$secondary:#303030;
+$success:#015668;
+$danger:#FF304F;
+$info:#0F81C7;
+$warning:#0DE2EA;
+$light:#e8e8e8;
+$dark:#000000;
+$border: orange;
+$enable-gradients:true;
+$spacer:1.2rem;
+$border-width:3px;
+$btn-border-radius:.25rem;
+$padding:1rem;
+$align-text:center;
+
+
+#blackCanvas {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border: 3px solid $border;
+    position: relative;
+}
+
+button {
+    font-family: $font-family;
+    background-color :$warning;
+    border : 3px solid $border;
+    text-align : $align-text;
+    width: 100px;
+    height: 50px;
+}
+
+#displayRedButton {
+    color:red;
+}
+#displayBlueButton {
+    color:rgb(5, 5, 65);
+}
+#displayGreenButton {
+    color:green;
+}

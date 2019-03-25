@@ -1,1 +1,23 @@
-/*Use the .scss file instead!*/
+.jumbotron {
+  width: 600px;
+  height: 800px;
+  background-color: #000000;
+  border-bottom-color: orange;
+  display: flexbox;
+  align-self: center;
+}
+
+.carousel {
+  width: 500px;
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
