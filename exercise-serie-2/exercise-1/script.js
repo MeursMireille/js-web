@@ -2,61 +2,30 @@
 console.log("This script is linked properly!")
 //Write your JS code here...
 
+var request = new XMLHttpRequest();
 
+request.open('get', 'https://thecatapi.com/', true);
 
-
-
-
-
-
-
-
-
-
-
-
-/* let beers = ['name', 'tagline', 'yearOfBrewery', 'cardImage'];
-
-
-
-const app = document.getElementById('root')
-
-const logo = document.createElement('img')
-logo.src = 'logo.png'
-
-const container = document.createElement('div')
-container.setAttribute('class', 'container')
-
-app.appendChild(logo)
-app.appendChild(container)
-
-var request = new XMLHttpRequest()
-request.open('GET', 'https://api.punkapi.com/v2/beers', true)
 request.onload = function() {
-  // Begin accessing JSON data here
-  var data = JSON.parse(this.response)
+  let data = JSON.parse(this.response);
+
   if (request.status >= 200 && request.status < 400) {
-    data.forEach(beers => {
-      const card = document.createElement('div')
-      card.setAttribute('class', 'card')
+  data.forEach(catImage => {
 
-const h1 = document.createElement('h1')
-h1.textContent = beers.title
+    const row1 = document.getElementById("row-1");
+    const img = document.createElement("img");
+    img.setAttribute("class",);
+    img.scr = cat.image_url;
 
-const p = document.createElement('p')
-beers.description = beers.description.substring(0, 300)
-p.textContent = `${beers.description}...`
+    row1.appendChild(img);
+  })
 
-container.appendChild(card)
-card.appendChild(h1)
-card.appendChild(p)
-})
 } else {
-const errorMessage = document.createElement('marquee')
-errorMessage.textContent = `Gah, it's not working!`
-app.appendChild(errorMessage)
-}
+  console.log("No cat pictures available");
+} 
 }
 
-request.send()*/
+request.send();
+
+setInterval(api, 1000);
 
